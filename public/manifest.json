@@ -1,0 +1,17 @@
+{
+  "name": "Zoya AI Assistant",
+  "short_name": "Zoya",
+  "description": "Zoya - The Sassy Indian AI Voice Assistant",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3249/3249935.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

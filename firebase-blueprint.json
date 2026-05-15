@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Interaction": {
+      "title": "Interaction",
+      "description": "Record of people who talked to Zoya",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the person" },
+        "summary": { "type": "string", "description": "Summary of what they said" },
+        "timestamp": { "type": "string", "format": "date-time", "description": "Time of interaction" },
+        "user_email": { "type": "string", "description": "Owner's email for access" }
+      },
+      "required": ["name", "timestamp"]
+    }
+  },
+  "firestore": {
+    "interactions": {
+      "schema": "Interaction",
+      "description": "History of interactions"
+    }
+  }
+}
